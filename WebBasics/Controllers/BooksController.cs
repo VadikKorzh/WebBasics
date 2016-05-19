@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BooksDataService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,11 +11,13 @@ namespace WebBasics.Controllers
     public class BooksController : Controller
     {
         public static IList<Book> Library = new List<Book>();
+
+        BookDbContext libraryEF = new BookDbContext();
         
         // GET: Books
         public ActionResult Index()
         {
-            return View(Library);
+            return View(libraryEF.Books);
         }
 
         // GET: Books/Details/5

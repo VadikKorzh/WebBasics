@@ -21,7 +21,7 @@ namespace WebBasics
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            BooksController.Library.Add("Franz Kafka", "The Castle");
+            BooksController.Library.Add("F", "The Castle");
             BooksController.Library.Add("Leo Tolstoy", "War and Peace");
             BooksController.Library.Add("F. S. Fitzgerald", "Great Gatsby");
 

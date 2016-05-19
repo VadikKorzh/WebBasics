@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBasics", "WebBasics\WebBasics.csproj", "{15078D96-6508-4ACF-807C-402A26CF5FE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBasics", "MVCBasics\MVCBasics.csproj", "{B54422DE-4179-4934-89FE-50EB7B0902A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstExample", "..\..\..\Documents\Visual Studio 2015\Projects\DBBasics\CodeFirstExample\CodeFirstExample.csproj", "{14D9958D-C18C-4AEB-B8DB-BFAF066A5A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "..\..\..\Documents\Visual Studio 2015\Projects\DBBasics\DataService\DataService.csproj", "{5441A1C9-F710-47CC-B22A-FA3CB56D2907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksDataService", "BooksDataService\BooksDataService.csproj", "{EE6BE3DB-AB69-4332-8B07-BC24F1DEA93D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B54422DE-4179-4934-89FE-50EB7B0902A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B54422DE-4179-4934-89FE-50EB7B0902A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B54422DE-4179-4934-89FE-50EB7B0902A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D9958D-C18C-4AEB-B8DB-BFAF066A5A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D9958D-C18C-4AEB-B8DB-BFAF066A5A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D9958D-C18C-4AEB-B8DB-BFAF066A5A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D9958D-C18C-4AEB-B8DB-BFAF066A5A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5441A1C9-F710-47CC-B22A-FA3CB56D2907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5441A1C9-F710-47CC-B22A-FA3CB56D2907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5441A1C9-F710-47CC-B22A-FA3CB56D2907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5441A1C9-F710-47CC-B22A-FA3CB56D2907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6BE3DB-AB69-4332-8B07-BC24F1DEA93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6BE3DB-AB69-4332-8B07-BC24F1DEA93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6BE3DB-AB69-4332-8B07-BC24F1DEA93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6BE3DB-AB69-4332-8B07-BC24F1DEA93D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
